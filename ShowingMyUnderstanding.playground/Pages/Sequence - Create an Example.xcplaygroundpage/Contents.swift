@@ -23,7 +23,9 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this comment and add your code below...
+// Draw stop light
+
+
 
 /*:
  ## Template code
