@@ -19,7 +19,10 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-// Replace this comment and add your code below...
+// Make lines loop
+for x in stride(from: 0, to: 150, by: 10) {
+   canvas.drawLine(fromX: 0, fromY: x, toX: 300, toY: x)
+}
 
 /*:
  ## Template code
