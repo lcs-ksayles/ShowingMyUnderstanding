@@ -29,6 +29,7 @@ let canvas = Canvas(width: 300, height: 300)
 let number = random(from: 0, toButNotIncluding: 2)
 
 //Shapes
+canvas.fillColor = Color.purple
 if number == 1{
 canvas.drawEllipse(centreX: 150, centreY: 150, width: 150, height:150)
 }
