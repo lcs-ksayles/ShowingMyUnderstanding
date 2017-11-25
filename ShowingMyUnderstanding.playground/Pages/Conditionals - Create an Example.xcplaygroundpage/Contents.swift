@@ -24,16 +24,19 @@ let number = random(from: 0, toButNotIncluding: 3)
 
 // Small Circles
 if number == 0{
+    canvas.fillColor = Color.blue
     canvas.drawEllipse(centreX: 150, centreY: 150, width: 50, height:50)
 }
 
 //Medium Circles
 if number == 1{
+    canvas.fillColor = Color.green
     canvas.drawEllipse(centreX: 150, centreY: 150, width: 100, height: 100)
 }
 
 //Large Circles
 if number == 2{
+    canvas.fillColor = Color.red
     canvas.drawEllipse(centreX: 150, centreY: 150, width: 200, height: 200)
 }
 /*:
