@@ -21,12 +21,20 @@ import Cocoa
 import PlaygroundSupport
 
 // Create canvas
-let canvas = Canvas(width: 300, height: 300)
+let canvas = Canvas(width: 150, height: 500)
+canvas.drawRectangle(centreX: 75, centreY: 75, width: 150, height: 900)
 
-// Draw stop light
+// Draw Red light
+canvas.fillColor = Color.red
+canvas.drawEllipse(centreX: 75, centreY: 400, width: 100, height: 100)
 
+// Draw Yellow light
+canvas.fillColor = Color.yellow
+canvas.drawEllipse(centreX: 75, centreY: 250, width: 100, height: 100)
 
-
+// Draw Green light
+canvas.fillColor = Color.green
+canvas.drawEllipse(centreX: 75, centreY: 100, width: 100, height: 100)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
